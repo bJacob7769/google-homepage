@@ -1,0 +1,84 @@
+ul {
+    margin: 5px;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    border: none;
+    border-width: 1px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+footer {
+    background-color: lightgray;
+    position: fixed;
+    align-content: center;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%
+}
+
+li.fleft {
+    float: left;
+    margin: 10px;
+    align-content: center;
+}
+
+li.fright {
+    float: right;
+    margin: 10px;
+    align-content: center;
+}
+
+.left {
+    float: left;
+    margin: 10px;
+    
+}
+
+.right {
+    float: right;
+    margin: 10px;
+}
+ main {
+     align-content: center;
+     margin: 125px 250px 250px 460px;
+     padding: 15px;
+     
+ }
+
+ img {
+     margin: 10px;
+     height: 100px;
+     width: 325px;
+     align-content: center;
+     justify-content: center;
+     margin-left: 15px;
+ }
+
+ input[type="text"] {
+     margin: 15px 25px 25px 0px;
+     width: 350px;
+     justify-content: center;
+
+ }
+
+ input[type="submit"] {
+     margin: 5px;
+     width: 130px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     justify-content: space-between;
+     justify-items: stretch;
+     margin-left: 15px;
+ }
+
+ #SignIn {
+     background-color: blue;
+     border-radius: 15px;
+     margin: 10px;
+ }
